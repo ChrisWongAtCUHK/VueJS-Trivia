@@ -1,4 +1,6 @@
 module.exports = {
+	base: "/VueJS-Trivia/",
+	dest: "dist",
   title: 'Vue.js黑科技',
 	description: 'Vue.js的黑科技、黑魔法、冷知識',
 	toc: {

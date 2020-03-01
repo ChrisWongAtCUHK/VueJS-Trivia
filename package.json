@@ -6,10 +6,13 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "docs:deploy": "yarn docs:build; gh-pages -d dist",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
   "devDependencies": {
-    "eslint-config-vuepress": "^2.1.0"
-  }
+    "eslint-config-vuepress": "^2.1.0",
+    "gh-pages": "^2.2.0"
+  },
+  "dependencies": {}
 }
