@@ -4,7 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-	"docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "eslint-config-vuepress": "^2.1.0"
   }
 }
