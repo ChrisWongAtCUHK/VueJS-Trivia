@@ -3,3 +3,4 @@
 - [簡介](./introduction)
 - [Caveats](./caveats)
 - [低級錯誤](./sillyMistakes)
+- [好用Plugins](./plugins)
