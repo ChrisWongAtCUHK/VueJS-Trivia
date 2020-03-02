@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:deploy": "yarn docs:build; gh-pages -d dist",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "yarn docs:build; gh-pages -d dist",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
